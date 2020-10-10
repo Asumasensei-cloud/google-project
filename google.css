@@ -1,0 +1,157 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; font-size: 80%; 
+}
+
+.listA-item{
+    text-align: center;
+    font-size: 100%;
+    width: auto;
+    line-height: normal ;
+    margin: 0px;
+    padding: 7px 7px 0px 7px;
+}
+
+.listA{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.google-icon{
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.search-box{
+    width: 600px;
+    height: 40px;
+    border-radius: 21px;
+    background-image: url("search.png") ;
+    background-position: 5px 12px;
+    background-repeat: no-repeat;
+    border: rgb(233, 233, 233) solid 1px;
+    text-indent: 40px;
+
+}
+
+.doo{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+
+}
+
+.doo-item{
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    margin: 25px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.boo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.boo-item{
+    margin: 1px 0px;
+    padding: 10px 3px;
+    text-align: center;
+}
+
+#link:link{
+    color: rgb(4, 4, 117);
+    text-decoration: none;
+}
+
+#link:hover{
+    color: rgb(4, 4, 117);
+    text-decoration: underline;
+}
+
+#link:visited{
+    color: rgb(73, 14, 129);
+}
+
+#link:active{
+    color: black;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+}
+
+.lang-item{
+    padding: 10px 5px;
+}
+
+#naija{
+    padding: 10px 25px;
+    margin: 0px -10px;
+    background-color: rgb(233, 233, 233);
+    border: rgb(167, 164, 164) solid 1px;
+    color: rgb(0, 0, 0);
+}
+
+.gen-foot{
+    display: flex;
+    padding: -20px 10px;
+    margin: 0px -10px;
+    background-color: rgb(233, 233, 233);
+    justify-content: space-between;
+    border-bottom:  rgb(167, 164, 164) solid 1px;
+}
+
+.footA{
+    display: flex;
+    padding: -10px 0px;
+    margin: 0px 0px;
+}
+
+.footB{
+    display: flex;
+    padding: -10px 0px;
+    margin: 0px 0px;
+}
+
+.footA-item{
+    padding: 0px 25px 0px 25px;
+    color: rgb(0, 0, 0);
+}
+
+.footB-item{
+    padding: 0px 25px 0px 25px;
+    color: rgb(0, 0, 0);
+}
+
+#linkB:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#linkB:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+#linkB:visited{
+    color: rgb(0, 0, 0);
+}
